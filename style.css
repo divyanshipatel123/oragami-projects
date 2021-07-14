@@ -1,0 +1,118 @@
+
+ .menu{
+     border: solid;
+     border-width: 0.5px;
+     border-color: black;
+     display: flex;
+     justify-content: space-between;
+     background-color: rgba(106, 142, 145, 0.911);
+     padding: 15px;
+     font-size: 20px;
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: 400;
+     color:cornsilk;
+ }
+ h1{
+     font-size: 50px;
+     font-family:cursive;
+     color: rgba(61, 141, 187, 0.849) ;
+ }
+ 
+ body{
+     position: relative;
+    margin : 0px;
+   
+    background-image: linear-gradient(180deg ,rgb(95, 168, 228), rgba(79, 224, 224, 0.788));
+    border:solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 4px;
+ }
+ .grid img{
+     border: 0.1px solid black;
+     padding: 20px;
+     border-radius: 15px 50px;
+     background-color: rgba(44, 225, 238, 0.616);
+     display: flex;
+     justify-content: center;
+
+
+ }
+ .origami{
+     border: solid;
+     border-width: 1px;
+     border-radius: 15px;
+     background-color: rgba(106, 142, 145, 0.911);
+     padding: 30px;
+     margin : 25;
+     width: 330px;
+     font-family: fantasy;
+ }
+ .grid{
+     position: relative;
+     padding: 50px;
+     display: grid;
+     grid-gap: 50px 75px;
+     grid-template-columns: auto auto auto;          
+ }
+
+
+ .bodyImg{
+     position: relative;
+     filter:brightness(200%);
+     filter: contrast(150%);
+ }
+ .bodyImg img{
+     position : relative;
+     border: 0.1px solid black;
+     border-radius: 10px;
+ }
+ .bodyImg h1{
+    position: absolute;
+    top:5%;
+    left:4%;
+ }
+ .bodyImg h3{
+    font-size: 25px;
+    font-family: cursive;
+    color:rgba(10, 32, 73, 0.87);
+    position: absolute;
+    top:50%;
+    left:23%;
+    transform: translate(-25% , -50%)
+ }
+
+
+
+ .origami:hover {
+    transform: scale(1.2);   
+ }
+ .origami:hover li{
+    opacity: 0;
+ }
+ .origami:hover p{
+
+    position:absolute;
+    top:62%;
+    left: 26%;
+    font-size: 25px;
+ }
+ .origami:hover img{
+    position: absolute;
+    filter:brightness(200%);
+    filter: contrast(150%);
+    transform: scale(1.2);
+    top:20%;
+    left: 15%;
+ }
+
+
+
+
+ a:link{
+    color :rgb(183, 184, 196)
+ }
+ a:visited{
+    color: rgb(51, 32, 221);
+ }
+
